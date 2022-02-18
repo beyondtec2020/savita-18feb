@@ -1,0 +1,770 @@
+0000.000 (0) Opened log file at time: Mon, 21 Oct 2019 11:11:57 +0000 on https://beyondtec.com.br
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.17 WP: 5.2.4 PHP: 7.0.25 (cgi-fcgi, Linux br432.hostgator.com.br 4.14.94-164.ELK.el6.x86_64 #1 SMP Wed Jan 16 16:56:35 CST 2019 x86_64) MySQL: 5.6.41-84.1 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 107.4M | 110M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.045 (0) Free space on disk containing Updraft's temporary directory: 247180.9 MB
+0000.050 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.054 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.058 (0) Set semaphore last lock (fd) time to 2019-10-21 11:11:57
+0000.065 (0) Semaphore lock (fd) complete
+0000.073 (0) Backup run: resumption=0, nonce=0116131aa187, file_nonce=0116131aa187 begun at=1571656317 (0s ago), job type=backup
+0000.076 (0) Scheduling a resumption (1) after 300 seconds (1571656617) in case this run gets aborted
+0000.124 (0) Checking if we have a zip executable available
+0000.125 (0) Testing: /usr/bin/zip
+0000.137 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.140 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.145 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.147 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.149 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.161 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.165 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.174 (0) Working binary zip found: /usr/bin/zip
+0000.178 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.179 (0) Creation of backups of directories: beginning
+0000.184 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.661 (0) Total entities for the zip file: 2625 directories, 16765 files (0 skipped as non-modified), 261.9 MB
+0001.666 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.670 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.673 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.676 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.679 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.681 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 16765 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.378 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: size is now: 1.90 MB
+0002.384 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 600 files added (on-disk size: 1949.4 KB)
+0002.387 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 700 files added (on-disk size: 1949.4 KB)
+0002.390 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 800 files added (on-disk size: 1949.4 KB)
+0002.393 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 900 files added (on-disk size: 1949.4 KB)
+0002.396 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1000 files added (on-disk size: 1949.4 KB)
+0002.397 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 16765 files batched, 501 (1002) added so far); re-opening (prior size: 1949.4 KB)
+0002.833 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: size is now: 3.10 MB
+0002.840 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1100 files added (on-disk size: 3193.5 KB)
+0002.844 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1200 files added (on-disk size: 3193.5 KB)
+0002.847 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1300 files added (on-disk size: 3193.5 KB)
+0002.850 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1400 files added (on-disk size: 3193.5 KB)
+0002.853 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1500 files added (on-disk size: 3193.5 KB)
+0002.854 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 16765 files batched, 501 (1503) added so far); re-opening (prior size: 3193.5 KB)
+0003.248 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: size is now: 4.90 MB
+0003.254 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1600 files added (on-disk size: 4968.8 KB)
+0003.258 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1700 files added (on-disk size: 4968.8 KB)
+0003.261 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1800 files added (on-disk size: 4968.8 KB)
+0003.264 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 1900 files added (on-disk size: 4968.8 KB)
+0003.267 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2000 files added (on-disk size: 4968.8 KB)
+0003.268 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 MB, 16765 files batched, 501 (2004) added so far); re-opening (prior size: 4968.8 KB)
+0004.749 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: size is now: 8.30 MB
+0004.757 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2100 files added (on-disk size: 8481.4 KB)
+0004.762 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2200 files added (on-disk size: 8481.4 KB)
+0004.767 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2300 files added (on-disk size: 8481.4 KB)
+0004.771 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2400 files added (on-disk size: 8481.4 KB)
+0004.776 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2500 files added (on-disk size: 8481.4 KB)
+0004.778 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 16765 files batched, 501 (2505) added so far); re-opening (prior size: 8481.4 KB)
+0006.149 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: size is now: 11.40 MB
+0006.157 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2600 files added (on-disk size: 11721.5 KB)
+0006.162 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2700 files added (on-disk size: 11721.5 KB)
+0006.167 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2800 files added (on-disk size: 11721.5 KB)
+0006.173 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 2900 files added (on-disk size: 11721.5 KB)
+0006.176 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3000 files added (on-disk size: 11721.5 KB)
+0006.178 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 16765 files batched, 501 (3006) added so far); re-opening (prior size: 11721.5 KB)
+0007.350 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3100 files added (on-disk size: 13748.6 KB)
+0007.353 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3200 files added (on-disk size: 13748.6 KB)
+0007.356 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3300 files added (on-disk size: 13748.6 KB)
+0007.359 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3400 files added (on-disk size: 13748.6 KB)
+0007.362 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3500 files added (on-disk size: 13748.6 KB)
+0007.364 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 16765 files batched, 501 (3507) added so far); re-opening (prior size: 13748.6 KB)
+0008.247 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3600 files added (on-disk size: 15510.1 KB)
+0008.251 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3700 files added (on-disk size: 15510.1 KB)
+0008.255 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3800 files added (on-disk size: 15510.1 KB)
+0008.258 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 3900 files added (on-disk size: 15510.1 KB)
+0008.262 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4000 files added (on-disk size: 15510.1 KB)
+0008.263 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 16765 files batched, 501 (4008) added so far); re-opening (prior size: 15510.1 KB)
+0009.149 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4100 files added (on-disk size: 17592.7 KB)
+0009.152 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4200 files added (on-disk size: 17592.7 KB)
+0009.155 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4300 files added (on-disk size: 17592.7 KB)
+0009.158 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4400 files added (on-disk size: 17592.7 KB)
+0009.162 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4500 files added (on-disk size: 17592.7 KB)
+0009.164 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12 MB, 16765 files batched, 501 (4509) added so far); re-opening (prior size: 17592.7 KB)
+0010.153 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4600 files added (on-disk size: 19968.7 KB)
+0010.157 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4700 files added (on-disk size: 19968.7 KB)
+0010.161 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4800 files added (on-disk size: 19968.7 KB)
+0010.164 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 4900 files added (on-disk size: 19968.7 KB)
+0010.167 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5000 files added (on-disk size: 19968.7 KB)
+0010.169 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 16765 files batched, 501 (5010) added so far); re-opening (prior size: 19968.7 KB)
+0010.808 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5100 files added (on-disk size: 22461.1 KB)
+0010.812 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5200 files added (on-disk size: 22461.1 KB)
+0010.816 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5300 files added (on-disk size: 22461.1 KB)
+0010.820 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5400 files added (on-disk size: 22461.1 KB)
+0010.824 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5500 files added (on-disk size: 22461.1 KB)
+0010.825 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 16765 files batched, 501 (5511) added so far); re-opening (prior size: 22461.1 KB)
+0012.007 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5600 files added (on-disk size: 25430.2 KB)
+0012.012 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5700 files added (on-disk size: 25430.2 KB)
+0012.016 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5800 files added (on-disk size: 25430.2 KB)
+0012.020 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 5900 files added (on-disk size: 25430.2 KB)
+0012.023 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6000 files added (on-disk size: 25430.2 KB)
+0012.025 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20.5 MB, 16765 files batched, 501 (6012) added so far); re-opening (prior size: 25430.2 KB)
+0013.713 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: size is now: 35.20 MB
+0013.721 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6100 files added (on-disk size: 36011 KB)
+0013.725 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6200 files added (on-disk size: 36011 KB)
+0013.728 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6300 files added (on-disk size: 36011 KB)
+0013.732 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6400 files added (on-disk size: 36011 KB)
+0013.735 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6500 files added (on-disk size: 36011 KB)
+0013.737 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.1 MB, 16765 files batched, 501 (6513) added so far); re-opening (prior size: 36011 KB)
+0015.157 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6600 files added (on-disk size: 42761 KB)
+0015.163 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6700 files added (on-disk size: 42761 KB)
+0015.168 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6800 files added (on-disk size: 42761 KB)
+0015.173 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 6900 files added (on-disk size: 42761 KB)
+0015.178 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7000 files added (on-disk size: 42761 KB)
+0015.181 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 16765 files batched, 501 (7014) added so far); re-opening (prior size: 42761 KB)
+0016.407 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7100 files added (on-disk size: 45107.5 KB)
+0016.411 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7200 files added (on-disk size: 45107.5 KB)
+0016.416 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7300 files added (on-disk size: 45107.5 KB)
+0016.422 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7400 files added (on-disk size: 45107.5 KB)
+0016.427 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7500 files added (on-disk size: 45107.5 KB)
+0016.429 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 16765 files batched, 501 (7515) added so far); re-opening (prior size: 45107.5 KB)
+0017.561 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7600 files added (on-disk size: 46149.8 KB)
+0017.565 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7700 files added (on-disk size: 46149.8 KB)
+0017.569 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7800 files added (on-disk size: 46149.8 KB)
+0017.573 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 7900 files added (on-disk size: 46149.8 KB)
+0017.582 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8000 files added (on-disk size: 46149.8 KB)
+0017.585 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.6 MB, 16765 files batched, 501 (8016) added so far); re-opening (prior size: 46149.8 KB)
+0018.188 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8100 files added (on-disk size: 46607.4 KB)
+0018.192 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8200 files added (on-disk size: 46607.4 KB)
+0018.195 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8300 files added (on-disk size: 46607.4 KB)
+0018.198 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8400 files added (on-disk size: 46607.4 KB)
+0018.201 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8500 files added (on-disk size: 46607.4 KB)
+0018.203 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 16765 files batched, 501 (8517) added so far); re-opening (prior size: 46607.4 KB)
+0019.172 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8600 files added (on-disk size: 49581.2 KB)
+0019.176 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8700 files added (on-disk size: 49581.2 KB)
+0019.180 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8800 files added (on-disk size: 49581.2 KB)
+0019.183 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 8900 files added (on-disk size: 49581.2 KB)
+0019.186 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9000 files added (on-disk size: 49581.2 KB)
+0019.188 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 16765 files batched, 501 (9018) added so far); re-opening (prior size: 49581.2 KB)
+0020.070 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9100 files added (on-disk size: 52226 KB)
+0020.074 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9200 files added (on-disk size: 52226 KB)
+0020.077 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9300 files added (on-disk size: 52226 KB)
+0020.080 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9400 files added (on-disk size: 52226 KB)
+0020.083 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9500 files added (on-disk size: 52226 KB)
+0020.084 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (23.3 MB, 16765 files batched, 501 (9519) added so far); re-opening (prior size: 52226 KB)
+0022.701 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9600 files added (on-disk size: 61499.2 KB)
+0022.705 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9700 files added (on-disk size: 61499.2 KB)
+0022.708 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9800 files added (on-disk size: 61499.2 KB)
+0022.712 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 9900 files added (on-disk size: 61499.2 KB)
+0022.715 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10000 files added (on-disk size: 61499.2 KB)
+0022.716 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 16765 files batched, 501 (10020) added so far); re-opening (prior size: 61499.2 KB)
+0023.709 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10100 files added (on-disk size: 62503.7 KB)
+0023.713 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10200 files added (on-disk size: 62503.7 KB)
+0023.716 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10300 files added (on-disk size: 62503.7 KB)
+0023.721 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10400 files added (on-disk size: 62503.7 KB)
+0023.725 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10500 files added (on-disk size: 62503.7 KB)
+0023.728 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 16765 files batched, 501 (10521) added so far); re-opening (prior size: 62503.7 KB)
+0024.425 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10600 files added (on-disk size: 63383 KB)
+0024.436 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10700 files added (on-disk size: 63383 KB)
+0024.446 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10800 files added (on-disk size: 63383 KB)
+0024.459 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 10900 files added (on-disk size: 63383 KB)
+0024.477 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11000 files added (on-disk size: 63383 KB)
+0024.483 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.4 MB, 16765 files batched, 501 (11022) added so far); re-opening (prior size: 63383 KB)
+0025.910 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11100 files added (on-disk size: 66537.2 KB)
+0025.914 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11200 files added (on-disk size: 66537.2 KB)
+0025.919 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11300 files added (on-disk size: 66537.2 KB)
+0025.924 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11400 files added (on-disk size: 66537.2 KB)
+0025.933 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11500 files added (on-disk size: 66537.2 KB)
+0025.936 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 16765 files batched, 501 (11523) added so far); re-opening (prior size: 66537.2 KB)
+0026.789 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11600 files added (on-disk size: 67416.7 KB)
+0026.794 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11700 files added (on-disk size: 67416.7 KB)
+0026.798 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11800 files added (on-disk size: 67416.7 KB)
+0026.803 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 11900 files added (on-disk size: 67416.7 KB)
+0026.811 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12000 files added (on-disk size: 67416.7 KB)
+0026.816 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 16765 files batched, 501 (12024) added so far); re-opening (prior size: 67416.7 KB)
+0028.086 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12100 files added (on-disk size: 72747.3 KB)
+0028.091 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12200 files added (on-disk size: 72747.3 KB)
+0028.094 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12300 files added (on-disk size: 72747.3 KB)
+0028.097 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12400 files added (on-disk size: 72747.3 KB)
+0028.101 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12500 files added (on-disk size: 72747.3 KB)
+0028.105 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 16765 files batched, 501 (12525) added so far); re-opening (prior size: 72747.3 KB)
+0029.975 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12600 files added (on-disk size: 75656.6 KB)
+0029.979 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12700 files added (on-disk size: 75656.6 KB)
+0029.982 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12800 files added (on-disk size: 75656.6 KB)
+0029.988 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 12900 files added (on-disk size: 75656.6 KB)
+0029.993 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13000 files added (on-disk size: 75656.6 KB)
+0029.997 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 16765 files batched, 501 (13026) added so far); re-opening (prior size: 75656.6 KB)
+0031.254 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13100 files added (on-disk size: 78252.5 KB)
+0031.259 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13200 files added (on-disk size: 78252.5 KB)
+0031.263 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13300 files added (on-disk size: 78252.5 KB)
+0031.271 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13400 files added (on-disk size: 78252.5 KB)
+0031.276 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13500 files added (on-disk size: 78252.5 KB)
+0031.280 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 16765 files batched, 501 (13527) added so far); re-opening (prior size: 78252.5 KB)
+0032.400 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13600 files added (on-disk size: 80319.7 KB)
+0032.405 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13700 files added (on-disk size: 80319.7 KB)
+0032.409 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13800 files added (on-disk size: 80319.7 KB)
+0032.413 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 13900 files added (on-disk size: 80319.7 KB)
+0032.417 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14000 files added (on-disk size: 80319.7 KB)
+0032.420 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 16765 files batched, 501 (14028) added so far); re-opening (prior size: 80319.7 KB)
+0033.780 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14100 files added (on-disk size: 83867.4 KB)
+0033.783 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14200 files added (on-disk size: 83867.4 KB)
+0033.787 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14300 files added (on-disk size: 83867.4 KB)
+0033.790 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14400 files added (on-disk size: 83867.4 KB)
+0033.793 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14500 files added (on-disk size: 83867.4 KB)
+0033.795 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 16765 files batched, 501 (14529) added so far); re-opening (prior size: 83867.4 KB)
+0035.834 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14600 files added (on-disk size: 88238.4 KB)
+0035.838 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14700 files added (on-disk size: 88238.4 KB)
+0035.842 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14800 files added (on-disk size: 88238.4 KB)
+0035.845 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 14900 files added (on-disk size: 88238.4 KB)
+0035.849 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15000 files added (on-disk size: 88238.4 KB)
+0035.851 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 16765 files batched, 501 (15030) added so far); re-opening (prior size: 88238.4 KB)
+0037.221 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15100 files added (on-disk size: 92413.9 KB)
+0037.225 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15200 files added (on-disk size: 92413.9 KB)
+0037.228 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15300 files added (on-disk size: 92413.9 KB)
+0037.231 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15400 files added (on-disk size: 92413.9 KB)
+0037.236 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15500 files added (on-disk size: 92413.9 KB)
+0037.239 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 16765 files batched, 501 (15531) added so far); re-opening (prior size: 92413.9 KB)
+0038.014 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15600 files added (on-disk size: 95056 KB)
+0038.019 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15700 files added (on-disk size: 95056 KB)
+0038.025 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15800 files added (on-disk size: 95056 KB)
+0038.030 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 15900 files added (on-disk size: 95056 KB)
+0038.035 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16000 files added (on-disk size: 95056 KB)
+0038.038 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 16765 files batched, 501 (16032) added so far); re-opening (prior size: 95056 KB)
+0039.394 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16100 files added (on-disk size: 99907.8 KB)
+0039.398 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16200 files added (on-disk size: 99907.8 KB)
+0039.401 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16300 files added (on-disk size: 99907.8 KB)
+0039.405 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16400 files added (on-disk size: 99907.8 KB)
+0039.408 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16500 files added (on-disk size: 99907.8 KB)
+0039.411 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 16765 files batched, 501 (16533) added so far); re-opening (prior size: 99907.8 KB)
+0040.562 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16600 files added (on-disk size: 105987 KB)
+0040.567 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip.tmp: 16700 files added (on-disk size: 105987 KB)
+0042.673 (0) Created plugins zip (0) - 107079.1 KB in 42.4 s (2522.7 KB/s) (sha1: 7abd269de2599eb8daf253f777f3cd9b010d70b6, sha256: c5f46e75880fe5b071deb2a220c0bb8a20ec315735f2dce7b70a6c9bc15facbf)
+0042.677 (0) Beginning creation of dump of themes (split every: 400 MB)
+0042.953 (0) Total entities for the zip file: 478 directories, 3990 files (0 skipped as non-modified), 45.8 MB
+0042.959 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0042.965 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0042.970 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0042.976 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0042.981 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0042.984 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.4 MB, 3990 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0044.122 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: size is now: 4.60 MB
+0044.144 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 600 files added (on-disk size: 4692.8 KB)
+0044.148 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 700 files added (on-disk size: 4692.8 KB)
+0044.151 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 800 files added (on-disk size: 4692.8 KB)
+0044.155 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 900 files added (on-disk size: 4692.8 KB)
+0044.158 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1000 files added (on-disk size: 4692.8 KB)
+0044.160 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 3990 files batched, 501 (1002) added so far); re-opening (prior size: 4692.8 KB)
+0044.777 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: size is now: 5.80 MB
+0044.787 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1100 files added (on-disk size: 5933.6 KB)
+0044.792 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1200 files added (on-disk size: 5933.6 KB)
+0044.797 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1300 files added (on-disk size: 5933.6 KB)
+0044.802 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1400 files added (on-disk size: 5933.6 KB)
+0044.806 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1500 files added (on-disk size: 5933.6 KB)
+0044.807 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 3990 files batched, 501 (1503) added so far); re-opening (prior size: 5933.6 KB)
+0045.491 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: size is now: 7.00 MB
+0045.498 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1600 files added (on-disk size: 7171.6 KB)
+0045.501 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1700 files added (on-disk size: 7171.6 KB)
+0045.504 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1800 files added (on-disk size: 7171.6 KB)
+0045.507 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 1900 files added (on-disk size: 7171.6 KB)
+0045.510 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2000 files added (on-disk size: 7171.6 KB)
+0045.512 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 3990 files batched, 501 (2004) added so far); re-opening (prior size: 7171.6 KB)
+0045.963 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: size is now: 15.20 MB
+0045.971 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2100 files added (on-disk size: 15613.7 KB)
+0045.976 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2200 files added (on-disk size: 15613.7 KB)
+0045.986 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2300 files added (on-disk size: 15613.7 KB)
+0045.993 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2400 files added (on-disk size: 15613.7 KB)
+0045.997 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2500 files added (on-disk size: 15613.7 KB)
+0045.999 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.3 MB, 3990 files batched, 501 (2505) added so far); re-opening (prior size: 15613.7 KB)
+0047.258 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: size is now: 19.70 MB
+0047.265 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2600 files added (on-disk size: 20198.3 KB)
+0047.267 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2700 files added (on-disk size: 20198.3 KB)
+0047.271 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2800 files added (on-disk size: 20198.3 KB)
+0047.273 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 2900 files added (on-disk size: 20198.3 KB)
+0047.276 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3000 files added (on-disk size: 20198.3 KB)
+0047.278 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 3990 files batched, 501 (3006) added so far); re-opening (prior size: 20198.3 KB)
+0047.955 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3100 files added (on-disk size: 21450.9 KB)
+0047.958 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3200 files added (on-disk size: 21450.9 KB)
+0047.961 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3300 files added (on-disk size: 21450.9 KB)
+0047.964 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3400 files added (on-disk size: 21450.9 KB)
+0047.967 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3500 files added (on-disk size: 21450.9 KB)
+0047.969 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 3990 files batched, 501 (3507) added so far); re-opening (prior size: 21450.9 KB)
+0048.561 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3600 files added (on-disk size: 22687.1 KB)
+0048.565 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3700 files added (on-disk size: 22687.1 KB)
+0048.568 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3800 files added (on-disk size: 22687.1 KB)
+0048.573 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip.tmp: 3900 files added (on-disk size: 22687.1 KB)
+0049.117 (0) Created themes zip (0) - 23508.9 KB in 6.4 s (3677.8 KB/s) (sha1: e310a19860350cc9fa79934eb592f1752d664fda, sha256: c50e694855fd03c4c95d417a5d86e929947a2ee2246c04b39a7cfa281dbf3952)
+0049.121 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0049.123 (0) Looking for candidates to backup in: /home/cliqu397/public_html/beyondtec.com.br/wp-content/uploads
+0049.125 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (1)
+0049.126 (0) finding files: wp-file-manager-pro: adding to list (2)
+0049.127 (0) finding files: continuous-image-carousel-with-lightbox: adding to list (3)
+0049.129 (0) finding files: woocommerce-placeholder-391x260.png: adding to list (4)
+0049.130 (0) finding files: js_composer: adding to list (5)
+0049.131 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (6)
+0049.133 (0) finding files: 2009: adding to list (7)
+0049.134 (0) finding files: 2014: adding to list (8)
+0049.136 (0) finding files: mc4wp-debug-log.php: adding to list (9)
+0049.138 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (10)
+0049.139 (0) finding files: revslider: adding to list (11)
+0049.140 (0) finding files: smile_fonts: adding to list (12)
+0049.141 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (13)
+0049.143 (0) finding files: woocommerce_uploads: adding to list (14)
+0049.144 (0) finding files: 2017: adding to list (15)
+0049.146 (0) finding files: wc-logs: adding to list (16)
+0049.148 (0) finding files: hummingbird-assets: adding to list (17)
+0049.149 (0) finding files: 2015: adding to list (18)
+0049.150 (0) finding files: 2010: adding to list (19)
+0049.152 (0) finding files: mphb: adding to list (20)
+0049.153 (0) finding files: woocommerce-placeholder.png: adding to list (21)
+0049.154 (0) finding files: 2018: adding to list (22)
+0049.155 (0) finding files: 2012: adding to list (23)
+0049.157 (0) finding files: iw-backup: adding to list (24)
+0049.158 (0) finding files: 2013: adding to list (25)
+0049.159 (0) finding files: 2019: adding to list (26)
+0049.161 (0) finding files: GeoLite2-Country.mmdb: adding to list (27)
+0049.162 (0) finding files: woocommerce-placeholder-474x324.png: adding to list (28)
+0049.163 (0) finding files: the7-css: adding to list (29)
+0049.164 (0) finding files: wp-less: adding to list (30)
+0049.166 (0) finding files: 2016: adding to list (31)
+0049.167 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0049.271 (0) Total entities for the zip file: 116 directories, 2008 files (0 skipped as non-modified), 117.6 MB
+0049.275 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0049.278 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0049.281 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0049.284 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0049.287 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0049.289 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.4 MB, 2008 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0050.769 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: size is now: 17.50 MB
+0050.790 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 600 files added (on-disk size: 17889.6 KB)
+0050.794 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 700 files added (on-disk size: 17889.6 KB)
+0050.797 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 800 files added (on-disk size: 17889.6 KB)
+0050.799 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 2008 files batched, 332 (833) added so far); re-opening (prior size: 17889.6 KB)
+0052.858 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: size is now: 40.30 MB
+0052.863 (0) A useful amount of data was added after this amount of zip processing: 2.3 s (normalised: 2.3 s, rate: 11289.8 KB/s)
+0052.866 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.2883150577545, normalised_time=2.2675296861294, max_time=52.864172935486, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0052.869 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 900 files added (on-disk size: 41299.3 KB)
+0052.873 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1000 files added (on-disk size: 41299.3 KB)
+0052.876 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1100 files added (on-disk size: 41299.3 KB)
+0052.879 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1200 files added (on-disk size: 41299.3 KB)
+0052.882 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1300 files added (on-disk size: 41299.3 KB)
+0052.884 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (31.1 MB, 2008 files batched, 501 (1334) added so far); re-opening (prior size: 41299.3 KB)
+0055.220 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: size is now: 69.00 MB
+0055.226 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1400 files added (on-disk size: 70682.4 KB)
+0055.229 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1500 files added (on-disk size: 70682.4 KB)
+0055.232 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1600 files added (on-disk size: 70682.4 KB)
+0055.234 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1700 files added (on-disk size: 70682.4 KB)
+0055.237 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1800 files added (on-disk size: 70682.4 KB)
+0055.240 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (36.3 MB, 2008 files batched, 501 (1835) added so far); re-opening (prior size: 70682.4 KB)
+0059.063 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: size is now: 103.00 MB
+0059.068 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 1900 files added (on-disk size: 105488.4 KB)
+0059.071 (0) Zip: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip.tmp: 2000 files added (on-disk size: 105488.4 KB)
+0062.618 (0) Created uploads zip (0) - 113288.2 KB in 13.4 s (8453.5 KB/s) (sha1: d5a882ff599b5abf1206c2d0e14e81012b446ba4, sha256: e9c4e50c98817dbd25d3eb31c456869dca0227d93fd4f6d403db963f68eb0264)
+0062.623 (0) Beginning backup of other directories found in the content directory (index: 0)
+0062.624 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0062.626 (0) Looking for candidates to backup in: /home/cliqu397/public_html/beyondtec.com.br/wp-content
+0062.628 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0062.629 (0) finding files: plugins: skipping: this is the plugins directory
+0062.631 (0) finding files: updraft: skipping: this is the updraft directory
+0062.632 (0) finding files: wphb-logs: adding to list (1)
+0062.634 (0) finding files: index.php: adding to list (2)
+0062.636 (0) finding files: wphb-cache: adding to list (3)
+0062.637 (0) finding files: advanced-cache.php: adding to list (4)
+0062.639 (0) finding files: wflogs: adding to list (5)
+0062.640 (0) finding files: uploads: skipping: this is the uploads directory
+0062.642 (0) finding files: themes: skipping: this is the themes directory
+0062.644 (0) finding files: upgrade: skipping: excluded by options
+0062.731 (0) Total entities for the zip file: 25 directories, 59 files (0 skipped as non-modified), 7.6 MB
+0063.461 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-others.zip.tmp: size is now: 2.90 MB
+0063.506 (0) Created others zip (0) - 2921.1 KB in 0.8 s (3651.1 KB/s) (sha1: fbe30740108430f83e507353452fdcf97449bc7b, sha256: 2c66a2b9eb1aaa07a5d4c65c8d30c3609209b63c85755ba525c9247287c1662d)
+0063.514 (0) Saving backup status to database (elements: 8)
+0063.519 (0) Beginning creation of database dump (WordPress DB)
+0063.522 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0063.572 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1194 bytes total)
+0063.584 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0063.651 (0) Table wp_options: Total expected rows (approximate): 614
+0063.778 (0) Table wp_options: Total rows added: 623 in 0.13 seconds
+0063.782 (0) Table wp_options: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_options.table.gz - 454.8 KB)
+0063.793 (0) Table wp_users: Total expected rows (approximate): 4
+0063.799 (0) Table wp_users: Total rows added: 4 in 0.00 seconds
+0063.802 (0) Table wp_users: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_users.table.gz - 0.8 KB)
+0063.810 (0) Table wp_usermeta: Total expected rows (approximate): 112
+0063.847 (0) Table wp_usermeta: Total rows added: 112 in 0.01 seconds
+0063.849 (0) Table wp_usermeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_usermeta.table.gz - 6.4 KB)
+0063.857 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0063.862 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0063.865 (0) Table wp_commentmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0063.871 (0) Table wp_comments: Total expected rows (approximate): 0
+0063.876 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0063.877 (0) Table wp_comments: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_comments.table.gz - 0.5 KB)
+0063.883 (0) Table wp_links: Total expected rows (approximate): 0
+0063.888 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0063.890 (0) Table wp_links: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_links.table.gz - 0.4 KB)
+0063.896 (0) Table wp_postmeta: Total expected rows (approximate): 4036
+0063.957 (0) Table wp_postmeta: Total rows added: 3567 in 0.06 seconds
+0063.960 (0) Table wp_postmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_postmeta.table.gz - 65.5 KB)
+0063.967 (0) Table wp_posts: Total expected rows (approximate): 562
+0064.212 (0) Table wp_posts: Total rows added: 581 in 0.24 seconds
+0064.218 (0) Table wp_posts: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_posts.table.gz - 581 KB)
+0064.234 (0) Table wp_term_relationships: Total expected rows (approximate): 74
+0064.244 (0) Table wp_term_relationships: Total rows added: 74 in 0.01 seconds
+0064.247 (0) Table wp_term_relationships: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_term_relationships.table.gz - 0.6 KB)
+0064.261 (0) Table wp_term_taxonomy: Total expected rows (approximate): 93
+0064.267 (0) Table wp_term_taxonomy: Total rows added: 93 in 0.00 seconds
+0064.269 (0) Table wp_term_taxonomy: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0064.275 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0064.280 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0064.282 (0) Table wp_termmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_termmeta.table.gz - 0.4 KB)
+0064.289 (0) Table wp_terms: Total expected rows (approximate): 93
+0064.293 (0) Table wp_terms: Total rows added: 93 in 0.00 seconds
+0064.294 (0) Table wp_terms: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_terms.table.gz - 1.4 KB)
+0064.301 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 0
+0064.306 (0) Table wp_wc_product_meta_lookup: Total rows added: 0 in 0.00 seconds
+0064.308 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_product_meta_lookup.table.gz - 0.5 KB)
+0064.314 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0064.321 (0) Table wp_wc_tax_rate_classes: Total rows added: 2 in 0.00 seconds
+0064.325 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0064.333 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0064.338 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0064.340 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0064.349 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0064.354 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0064.357 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0064.363 (0) Table wp_continuous_image_carousel: Total expected rows (approximate): 0
+0064.373 (0) Table wp_continuous_image_carousel: Total rows added: 0 in 0.01 seconds
+0064.376 (0) Table wp_continuous_image_carousel: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_continuous_image_carousel.table.gz - 0.4 KB)
+0064.385 (0) Table wp_crp_portfolios: Total expected rows (approximate): 2
+0064.392 (0) Table wp_crp_portfolios: Total rows added: 2 in 0.01 seconds
+0064.395 (0) Table wp_crp_portfolios: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_crp_portfolios.table.gz - 0.4 KB)
+0064.403 (0) Table wp_crp_projects: Total expected rows (approximate): 5
+0064.411 (0) Table wp_crp_projects: Total rows added: 5 in 0.01 seconds
+0064.414 (0) Table wp_crp_projects: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_crp_projects.table.gz - 0.8 KB)
+0064.426 (0) Table wp_give_commentmeta: Total expected rows (approximate): 0
+0064.434 (0) Table wp_give_commentmeta: Total rows added: 0 in 0.00 seconds
+0064.436 (0) Table wp_give_commentmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_commentmeta.table.gz - 0.4 KB)
+0064.448 (0) Table wp_give_comments: Total expected rows (approximate): 0
+0064.457 (0) Table wp_give_comments: Total rows added: 0 in 0.01 seconds
+0064.459 (0) Table wp_give_comments: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_comments.table.gz - 0.3 KB)
+0064.465 (0) Table wp_give_donationmeta: Total expected rows (approximate): 0
+0064.474 (0) Table wp_give_donationmeta: Total rows added: 0 in 0.00 seconds
+0064.476 (0) Table wp_give_donationmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_donationmeta.table.gz - 0.4 KB)
+0064.485 (0) Table wp_give_donormeta: Total expected rows (approximate): 0
+0064.491 (0) Table wp_give_donormeta: Total rows added: 0 in 0.00 seconds
+0064.493 (0) Table wp_give_donormeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_donormeta.table.gz - 0.3 KB)
+0064.503 (0) Table wp_give_donors: Total expected rows (approximate): 0
+0064.511 (0) Table wp_give_donors: Total rows added: 0 in 0.00 seconds
+0064.513 (0) Table wp_give_donors: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_donors.table.gz - 0.4 KB)
+0064.520 (0) Table wp_give_formmeta: Total expected rows (approximate): 0
+0064.527 (0) Table wp_give_formmeta: Total rows added: 0 in 0.00 seconds
+0064.530 (0) Table wp_give_formmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_formmeta.table.gz - 0.3 KB)
+0064.537 (0) Table wp_give_logmeta: Total expected rows (approximate): 0
+0064.544 (0) Table wp_give_logmeta: Total rows added: 0 in 0.00 seconds
+0064.546 (0) Table wp_give_logmeta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_logmeta.table.gz - 0.3 KB)
+0064.555 (0) Table wp_give_logs: Total expected rows (approximate): 0
+0064.561 (0) Table wp_give_logs: Total rows added: 0 in 0.00 seconds
+0064.562 (0) Table wp_give_logs: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_logs.table.gz - 0.3 KB)
+0064.571 (0) Table wp_give_sequential_ordering: Total expected rows (approximate): 0
+0064.577 (0) Table wp_give_sequential_ordering: Total rows added: 0 in 0.00 seconds
+0064.579 (0) Table wp_give_sequential_ordering: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_sequential_ordering.table.gz - 0.3 KB)
+0064.586 (0) Table wp_give_sessions: Total expected rows (approximate): 0
+0064.592 (0) Table wp_give_sessions: Total rows added: 0 in 0.00 seconds
+0064.593 (0) Table wp_give_sessions: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_sessions.table.gz - 0.3 KB)
+0064.600 (0) Table wp_layerslider: Total expected rows (approximate): 0
+0064.604 (0) Table wp_layerslider: Total rows added: 0 in 0.00 seconds
+0064.606 (0) Table wp_layerslider: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_layerslider.table.gz - 0.4 KB)
+0064.611 (0) Table wp_layerslider_revisions: Total expected rows (approximate): 0
+0064.616 (0) Table wp_layerslider_revisions: Total rows added: 0 in 0.00 seconds
+0064.618 (0) Table wp_layerslider_revisions: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_layerslider_revisions.table.gz - 0.3 KB)
+0064.625 (0) Table wp_mec_dates: Total expected rows (approximate): 16452
+0064.766 (0) Table wp_mec_dates: binary mysqldump finished (writes: 35) in 0.14 seconds
+0064.769 (0) Table wp_mec_dates: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mec_dates.table.gz - 244.8 KB)
+0064.776 (0) Table wp_mec_events: Total expected rows (approximate): 5
+0064.782 (0) Table wp_mec_events: Total rows added: 5 in 0.00 seconds
+0064.783 (0) Table wp_mec_events: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mec_events.table.gz - 0.6 KB)
+0064.788 (0) Table wp_mphb_sync_logs: Total expected rows (approximate): 0
+0064.792 (0) Table wp_mphb_sync_logs: Total rows added: 0 in 0.00 seconds
+0064.794 (0) Table wp_mphb_sync_logs: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_logs.table.gz - 0.3 KB)
+0064.800 (0) Table wp_mphb_sync_queue: Total expected rows (approximate): 0
+0064.804 (0) Table wp_mphb_sync_queue: Total rows added: 0 in 0.00 seconds
+0064.805 (0) Table wp_mphb_sync_queue: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_queue.table.gz - 0.3 KB)
+0064.811 (0) Table wp_mphb_sync_stats: Total expected rows (approximate): 0
+0064.815 (0) Table wp_mphb_sync_stats: Total rows added: 0 in 0.00 seconds
+0064.817 (0) Table wp_mphb_sync_stats: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_stats.table.gz - 0.3 KB)
+0064.822 (0) Table wp_mphb_sync_urls: Total expected rows (approximate): 0
+0064.826 (0) Table wp_mphb_sync_urls: Total rows added: 0 in 0.00 seconds
+0064.828 (0) Table wp_mphb_sync_urls: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_urls.table.gz - 0.3 KB)
+0064.835 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 90
+0064.841 (0) Table wp_nf3_action_meta: Total rows added: 90 in 0.00 seconds
+0064.843 (0) Table wp_nf3_action_meta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_action_meta.table.gz - 1.7 KB)
+0064.850 (0) Table wp_nf3_actions: Total expected rows (approximate): 4
+0064.855 (0) Table wp_nf3_actions: Total rows added: 4 in 0.00 seconds
+0064.857 (0) Table wp_nf3_actions: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_actions.table.gz - 0.5 KB)
+0064.863 (0) Table wp_nf3_chunks: Total expected rows (approximate): 0
+0064.867 (0) Table wp_nf3_chunks: Total rows added: 0 in 0.00 seconds
+0064.869 (0) Table wp_nf3_chunks: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_chunks.table.gz - 0.3 KB)
+0064.876 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 366
+0064.897 (0) Table wp_nf3_field_meta: Total rows added: 366 in 0.02 seconds
+0064.901 (0) Table wp_nf3_field_meta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_field_meta.table.gz - 3.4 KB)
+0064.906 (0) Table wp_nf3_fields: Total expected rows (approximate): 6
+0064.912 (0) Table wp_nf3_fields: Total rows added: 6 in 0.00 seconds
+0064.914 (0) Table wp_nf3_fields: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_fields.table.gz - 0.6 KB)
+0064.919 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 115
+0064.926 (0) Table wp_nf3_form_meta: Total rows added: 115 in 0.01 seconds
+0064.928 (0) Table wp_nf3_form_meta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_form_meta.table.gz - 1.8 KB)
+0064.936 (0) Table wp_nf3_forms: Total expected rows (approximate): 0
+0064.941 (0) Table wp_nf3_forms: Total rows added: 1 in 0.00 seconds
+0064.943 (0) Table wp_nf3_forms: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_forms.table.gz - 0.5 KB)
+0064.949 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0064.954 (0) Table wp_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0064.956 (0) Table wp_nf3_object_meta: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+0064.962 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0064.968 (0) Table wp_nf3_objects: Total rows added: 0 in 0.00 seconds
+0064.969 (0) Table wp_nf3_objects: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_objects.table.gz - 0.3 KB)
+0064.975 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0064.980 (0) Table wp_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0064.981 (0) Table wp_nf3_relationships: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_relationships.table.gz - 0.4 KB)
+0064.987 (0) Table wp_nf3_upgrades: Total expected rows (approximate): 0
+0065.000 (0) Table wp_nf3_upgrades: Total rows added: 1 in 0.01 seconds
+0065.002 (0) Table wp_nf3_upgrades: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_upgrades.table.gz - 3.3 KB)
+0065.009 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0065.017 (0) Table wp_revslider_css: Total rows added: 109 in 0.01 seconds
+0065.018 (0) Table wp_revslider_css: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_css.table.gz - 4.9 KB)
+0065.024 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0065.029 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0065.030 (0) Table wp_revslider_layer_animations: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0065.036 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0065.040 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0065.041 (0) Table wp_revslider_navigations: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0065.048 (0) Table wp_revslider_sliders: Total expected rows (approximate): 5
+0065.055 (0) Table wp_revslider_sliders: Total rows added: 5 in 0.01 seconds
+0065.057 (0) Table wp_revslider_sliders: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_sliders.table.gz - 4 KB)
+0065.117 (0) Table wp_revslider_slides: Total expected rows (approximate): 9
+0065.130 (0) Table wp_revslider_slides: Total rows added: 9 in 0.01 seconds
+0065.247 (0) Table wp_revslider_slides: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_slides.table.gz - 8.9 KB)
+0065.574 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0065.581 (0) Table wp_revslider_static_slides: Total rows added: 1 in 0.00 seconds
+0065.589 (0) Table wp_revslider_static_slides: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_static_slides.table.gz - 1.8 KB)
+0065.597 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0065.603 (0) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+0065.607 (0) Table wp_wc_download_log: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0065.615 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0065.622 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0065.625 (0) Table wp_wc_webhooks: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0065.633 (0) Table wp_wfblockediplog: Total expected rows (approximate): 3
+0065.638 (0) Table wp_wfblockediplog: Total rows added: 3 in 0.00 seconds
+0065.640 (0) Table wp_wfblockediplog: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfblockediplog.table.gz - 0.4 KB)
+0065.646 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0065.652 (0) Table wp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0065.655 (0) Table wp_wfblocks7: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0065.663 (0) Table wp_wfconfig: Total expected rows (approximate): 253
+0067.085 (0) Table wp_wfconfig: Total rows added: 253 in 1.42 seconds
+0067.087 (0) Table wp_wfconfig: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfconfig.table.gz - 380.2 KB)
+0067.094 (0) Table wp_wfcrawlers: Total expected rows (approximate): 26
+0067.098 (0) Table wp_wfcrawlers: Total rows added: 26 in 0.00 seconds
+0067.100 (0) Table wp_wfcrawlers: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfcrawlers.table.gz - 0.8 KB)
+0067.105 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0067.110 (0) Table wp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0067.112 (0) Table wp_wffilechanges: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0067.118 (0) Table wp_wffilemods: Total expected rows (approximate): 10647
+0067.285 (0) Table wp_wffilemods: binary mysqldump finished (writes: 36) in 0.17 seconds
+0067.287 (0) Table wp_wffilemods: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wffilemods.table.gz - 808.9 KB)
+0067.293 (0) Table wp_wfhits: Total expected rows (approximate): 83
+0067.316 (0) Table wp_wfhits: Total rows added: 83 in 0.02 seconds
+0067.318 (0) Table wp_wfhits: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfhits.table.gz - 8.5 KB)
+0067.325 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0067.329 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0067.331 (0) Table wp_wfhoover: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0067.338 (0) Table wp_wfissues: Total expected rows (approximate): 45
+0067.346 (0) Table wp_wfissues: Total rows added: 45 in 0.01 seconds
+0067.348 (0) Table wp_wfissues: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfissues.table.gz - 6.6 KB)
+0067.354 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 10647
+0067.432 (0) Table wp_wfknownfilelist: binary mysqldump finished (writes: 28) in 0.08 seconds
+0067.436 (0) Table wp_wfknownfilelist: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfknownfilelist.table.gz - 104.2 KB)
+0067.442 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0067.446 (0) Table wp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0067.448 (0) Table wp_wflivetraffichuman: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0067.453 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0067.457 (0) Table wp_wflocs: Total rows added: 0 in 0.00 seconds
+0067.458 (0) Table wp_wflocs: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wflocs.table.gz - 0.4 KB)
+0067.464 (0) Table wp_wflogins: Total expected rows (approximate): 46
+0067.475 (0) Table wp_wflogins: Total rows added: 46 in 0.01 seconds
+0067.477 (0) Table wp_wflogins: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wflogins.table.gz - 1.7 KB)
+0067.484 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0067.490 (0) Table wp_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0067.492 (0) Table wp_wfls_2fa_secrets: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfls_2fa_secrets.table.gz - 0.4 KB)
+0067.499 (0) Table wp_wfls_settings: Total expected rows (approximate): 19
+0067.505 (0) Table wp_wfls_settings: Total rows added: 19 in 0.00 seconds
+0067.506 (0) Table wp_wfls_settings: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfls_settings.table.gz - 0.7 KB)
+0067.513 (0) Table wp_wfnotifications: Total expected rows (approximate): 2
+0067.522 (0) Table wp_wfnotifications: Total rows added: 2 in 0.00 seconds
+0067.524 (0) Table wp_wfnotifications: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfnotifications.table.gz - 0.5 KB)
+0067.530 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0067.535 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0067.537 (0) Table wp_wfpendingissues: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0067.544 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0067.550 (0) Table wp_wfreversecache: Total rows added: 0 in 0.00 seconds
+0067.552 (0) Table wp_wfreversecache: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfreversecache.table.gz - 0.3 KB)
+0067.559 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0067.565 (0) Table wp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0067.567 (0) Table wp_wfsnipcache: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0067.574 (0) Table wp_wfstatus: Total expected rows (approximate): 976
+0067.598 (0) Table wp_wfstatus: Total rows added: 976 in 0.02 seconds
+0067.601 (0) Table wp_wfstatus: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfstatus.table.gz - 16.9 KB)
+0067.607 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0067.611 (0) Table wp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0067.613 (0) Table wp_wftrafficrates: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0067.620 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0067.625 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0067.627 (0) Table wp_woocommerce_api_keys: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0067.632 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0067.651 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0067.653 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0067.659 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0067.664 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0067.666 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0067.673 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0067.678 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0067.680 (0) Table wp_woocommerce_log: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0067.692 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0067.698 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0067.700 (0) Table wp_woocommerce_order_items: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0067.706 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0067.712 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0067.714 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0067.721 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 2
+0067.725 (0) Table wp_woocommerce_sessions: Total rows added: 2 in 0.00 seconds
+0067.727 (0) Table wp_woocommerce_sessions: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_sessions.table.gz - 0.9 KB)
+0067.735 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0067.739 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0067.741 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0067.748 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0067.754 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0067.757 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0067.766 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0067.771 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0067.773 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0067.780 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0067.786 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0067.788 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0067.795 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0067.800 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0067.802 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0067.808 (0) Table wp_wpfm_backup: Total expected rows (approximate): 0
+0067.813 (0) Table wp_wpfm_backup: Total rows added: 0 in 0.00 seconds
+0067.815 (0) Table wp_wpfm_backup: finishing file (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wpfm_backup.table.gz - 0.3 KB)
+0067.820 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_options.table.gz (1/90): adding to final database dump
+0067.968 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_users.table.gz (2/90): adding to final database dump
+0067.972 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_usermeta.table.gz (3/90): adding to final database dump
+0067.976 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_commentmeta.table.gz (4/90): adding to final database dump
+0067.978 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_comments.table.gz (5/90): adding to final database dump
+0067.980 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_links.table.gz (6/90): adding to final database dump
+0067.981 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_postmeta.table.gz (7/90): adding to final database dump
+0068.011 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_posts.table.gz (8/90): adding to final database dump
+0068.186 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_term_relationships.table.gz (9/90): adding to final database dump
+0068.189 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_term_taxonomy.table.gz (10/90): adding to final database dump
+0068.191 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_termmeta.table.gz (11/90): adding to final database dump
+0068.195 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_terms.table.gz (12/90): adding to final database dump
+0068.197 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_product_meta_lookup.table.gz (13/90): adding to final database dump
+0068.198 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_tax_rate_classes.table.gz (14/90): adding to final database dump
+0068.201 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_order_itemmeta.table.gz (15/90): adding to final database dump
+0068.203 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_payment_tokenmeta.table.gz (16/90): adding to final database dump
+0068.204 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_continuous_image_carousel.table.gz (17/90): adding to final database dump
+0068.206 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_crp_portfolios.table.gz (18/90): adding to final database dump
+0068.208 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_crp_projects.table.gz (19/90): adding to final database dump
+0068.209 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_commentmeta.table.gz (20/90): adding to final database dump
+0068.211 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_comments.table.gz (21/90): adding to final database dump
+0068.213 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_donationmeta.table.gz (22/90): adding to final database dump
+0068.214 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_donormeta.table.gz (23/90): adding to final database dump
+0068.216 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_donors.table.gz (24/90): adding to final database dump
+0068.217 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_formmeta.table.gz (25/90): adding to final database dump
+0068.219 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_logmeta.table.gz (26/90): adding to final database dump
+0068.220 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_logs.table.gz (27/90): adding to final database dump
+0068.222 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_sequential_ordering.table.gz (28/90): adding to final database dump
+0068.224 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_give_sessions.table.gz (29/90): adding to final database dump
+0068.225 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_layerslider.table.gz (30/90): adding to final database dump
+0068.229 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_layerslider_revisions.table.gz (31/90): adding to final database dump
+0068.230 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mec_dates.table.gz (32/90): adding to final database dump
+0068.309 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mec_events.table.gz (33/90): adding to final database dump
+0068.314 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_logs.table.gz (34/90): adding to final database dump
+0068.316 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_queue.table.gz (35/90): adding to final database dump
+0068.318 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_stats.table.gz (36/90): adding to final database dump
+0068.319 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_mphb_sync_urls.table.gz (37/90): adding to final database dump
+0068.321 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_action_meta.table.gz (38/90): adding to final database dump
+0068.323 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_actions.table.gz (39/90): adding to final database dump
+0068.325 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_chunks.table.gz (40/90): adding to final database dump
+0068.327 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_field_meta.table.gz (41/90): adding to final database dump
+0068.329 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_fields.table.gz (42/90): adding to final database dump
+0068.331 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_form_meta.table.gz (43/90): adding to final database dump
+0068.333 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_forms.table.gz (44/90): adding to final database dump
+0068.334 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_object_meta.table.gz (45/90): adding to final database dump
+0068.336 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_objects.table.gz (46/90): adding to final database dump
+0068.338 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_relationships.table.gz (47/90): adding to final database dump
+0068.340 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_nf3_upgrades.table.gz (48/90): adding to final database dump
+0068.343 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_css.table.gz (49/90): adding to final database dump
+0068.347 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_layer_animations.table.gz (50/90): adding to final database dump
+0068.350 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_navigations.table.gz (51/90): adding to final database dump
+0068.353 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_sliders.table.gz (52/90): adding to final database dump
+0068.356 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_slides.table.gz (53/90): adding to final database dump
+0068.364 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_revslider_static_slides.table.gz (54/90): adding to final database dump
+0068.367 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_download_log.table.gz (55/90): adding to final database dump
+0068.369 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wc_webhooks.table.gz (56/90): adding to final database dump
+0068.370 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfblockediplog.table.gz (57/90): adding to final database dump
+0068.373 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfblocks7.table.gz (58/90): adding to final database dump
+0068.375 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfconfig.table.gz (59/90): adding to final database dump
+0068.411 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfcrawlers.table.gz (60/90): adding to final database dump
+0068.414 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wffilechanges.table.gz (61/90): adding to final database dump
+0068.416 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wffilemods.table.gz (62/90): adding to final database dump
+0068.772 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfhits.table.gz (63/90): adding to final database dump
+0068.775 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfhoover.table.gz (64/90): adding to final database dump
+0068.777 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfissues.table.gz (65/90): adding to final database dump
+0068.780 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfknownfilelist.table.gz (66/90): adding to final database dump
+0068.809 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wflivetraffichuman.table.gz (67/90): adding to final database dump
+0068.813 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wflocs.table.gz (68/90): adding to final database dump
+0068.816 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wflogins.table.gz (69/90): adding to final database dump
+0068.818 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfls_2fa_secrets.table.gz (70/90): adding to final database dump
+0068.820 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfls_settings.table.gz (71/90): adding to final database dump
+0068.823 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfnotifications.table.gz (72/90): adding to final database dump
+0068.825 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfpendingissues.table.gz (73/90): adding to final database dump
+0068.827 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfreversecache.table.gz (74/90): adding to final database dump
+0068.828 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfsnipcache.table.gz (75/90): adding to final database dump
+0068.830 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wfstatus.table.gz (76/90): adding to final database dump
+0068.835 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wftrafficrates.table.gz (77/90): adding to final database dump
+0068.837 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_api_keys.table.gz (78/90): adding to final database dump
+0068.839 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_attribute_taxonomies.table.gz (79/90): adding to final database dump
+0068.841 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (80/90): adding to final database dump
+0068.842 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_log.table.gz (81/90): adding to final database dump
+0068.843 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_order_items.table.gz (82/90): adding to final database dump
+0068.845 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_payment_tokens.table.gz (83/90): adding to final database dump
+0068.846 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_sessions.table.gz (84/90): adding to final database dump
+0068.848 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_shipping_zone_locations.table.gz (85/90): adding to final database dump
+0068.849 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_shipping_zone_methods.table.gz (86/90): adding to final database dump
+0068.869 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_shipping_zones.table.gz (87/90): adding to final database dump
+0068.872 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_tax_rate_locations.table.gz (88/90): adding to final database dump
+0068.874 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_woocommerce_tax_rates.table.gz (89/90): adding to final database dump
+0068.876 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db-table-wp_wpfm_backup.table.gz (90/90): adding to final database dump
+0068.881 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db.gz: finished writing out complete database file (2688 KB)
+0068.931 (0) Total database tables backed up: 90 (backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db.gz, size: 2784995, sha1: 69b4bdb189b47e6a7edf1958b0287cc2d176a81d, sha256: fff075ef5a58544b92ca8c13ee2b7ec35ceb408b5b471936f67eddff6eddc19c)
+0068.940 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0068.942 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0068.943 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0068.945 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-others.zip: others: This file has not yet been successfully uploaded: will queue
+0068.946 (0) backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db.gz: db: This file has not yet been successfully uploaded: will queue
+0068.948 (0) Saving backup history. Total backup size: 243.7 MB
+0068.952 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0068.957 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0068.959 (0) No remote despatch: user chose no remote backup service
+0068.961 (0) Recording as successfully uploaded: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-plugins.zip
+0068.964 (0) Recording as successfully uploaded: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-themes.zip
+0068.968 (0) Recording as successfully uploaded: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-uploads.zip
+0068.971 (0) Recording as successfully uploaded: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-others.zip
+0068.974 (0) Recording as successfully uploaded: backup_2019-10-21-1111_Beyond_Technology_0116131aa187-db.gz
+0068.979 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0068.981 (0) Number of backup sets in history: 2; groups (db): 1
+0068.983 (0) Examining (for databases) backup set with group_id=0, nonce=0116131aa187, datestamp=1571656317 (Oct 21 2019 11:11:57)
+0068.984 (0) This backup set is the backup set just made, so will not be deleted.
+0068.984 (0) Examining (for databases) backup set with group_id=0, nonce=a606b1879b9e, datestamp=1571601952 (Oct 20 2019 20:05:52)
+0068.984 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.985 (0) Number of backup sets in history: 2; groups (files): 1
+0068.987 (0) Examining (for files) backup set with nonce=0116131aa187, datestamp=1571656317 (Oct 21 2019 11:11:57)
+0068.987 (0) This backup set is the backup set just made, so will not be deleted.
+0068.988 (0) This backup set is the backup set just made, so will not be deleted.
+0068.988 (0) This backup set is the backup set just made, so will not be deleted.
+0068.988 (0) This backup set is the backup set just made, so will not be deleted.
+0068.988 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.990 (0) Examining (for files) backup set with nonce=a606b1879b9e, datestamp=1571601952 (Oct 20 2019 20:05:52)
+0068.990 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.990 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0068.994 (0) Resume backup (0116131aa187, 0): finish run
+0068.998 (0) Decremented the semaphore (fd) by 1
+0069.001 (0) Semaphore (fd) unlocked
+0069.003 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0069.008 (0) No email will/can be sent - the user has not configured an email address.
+0069.010 (0) The backup apparently succeeded and is now complete

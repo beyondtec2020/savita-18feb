@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
+
+/*================= Client List ================*/
+/*No slider*/
+.client-list-row.no-slider{display: flex;}
+.client-list-row.no-slider .bit-client-list{display: flex; align-items: center;flex: 1;justify-content: center;padding: 20px;}
+.client-list-row.no-slider .bit-client-list .bit-client-list-content img{max-width: 100%;}
+
+

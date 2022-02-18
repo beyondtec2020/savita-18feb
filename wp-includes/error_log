@@ -1,0 +1,48 @@
+[30-Jul-2020 05:14:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/update.php:801
+Stack trace:
+#0 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/update.php on line 801
+[30-Jul-2020 05:14:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/update.php:801
+Stack trace:
+#0 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/update.php on line 801
+[30-Jul-2020 08:42:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/update.php:801
+Stack trace:
+#0 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/update.php on line 801
+[30-Jul-2020 17:57:27 America/Fortaleza] PHP Fatal error:  Class 'IXR_Server' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-wp-xmlrpc-server.php on line 23
+[30-Jul-2020 17:57:31 America/Fortaleza] PHP Fatal error:  Class 'IXR_Server' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 04:43:00 America/Fortaleza] PHP Fatal error:  Class 'IXR_Server' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-wp-xmlrpc-server.php on line 23
+[31-Jul-2020 04:43:24 America/Fortaleza] PHP Fatal error:  Class 'IXR_Server' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-wp-xmlrpc-server.php on line 23
+[10-Dec-2020 12:51:35 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[10-Dec-2020 12:51:35 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[10-Dec-2020 12:51:35 America/Fortaleza] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/php70/lib/php') in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[16-Dec-2020 09:22:07 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[16-Dec-2020 09:22:07 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[16-Dec-2020 09:22:07 America/Fortaleza] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/php70/lib/php') in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Jun-2021 07:07:18 America/Fortaleza] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Jun-2021 07:07:18 America/Fortaleza] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Jun-2021 07:07:18 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Jun-2021 07:07:18 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Jun-2021 07:07:18 America/Fortaleza] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[23-Jul-2021 07:43:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-walker-nav-menu.php on line 17
+[25-Jul-2021 06:22:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/locale.php on line 10
+[26-Oct-2021 12:12:35 America/Fortaleza] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Oct-2021 12:12:35 America/Fortaleza] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Oct-2021 12:12:35 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Oct-2021 12:12:35 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[26-Oct-2021 12:12:35 America/Fortaleza] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/functions.php on line 8
+[30-Oct-2021 10:13:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/locale.php on line 10
+[31-Oct-2021 06:10:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/class-walker-nav-menu.php on line 17

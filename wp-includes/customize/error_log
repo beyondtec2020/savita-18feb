@@ -1,0 +1,6 @@
+[30-Jul-2020 23:58:23 America/Fortaleza] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[30-Jul-2020 23:58:29 America/Fortaleza] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[31-Jul-2020 09:57:08 America/Fortaleza] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[31-Jul-2020 09:57:13 America/Fortaleza] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/customize/class-wp-customize-theme-control.php on line 17
+[31-Jul-2020 16:48:11 America/Fortaleza] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17
+[31-Jul-2020 16:48:17 America/Fortaleza] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home2/cliqu397/public_html/beyondtec.com.br/wp-includes/customize/class-wp-widget-form-customize-control.php on line 17

@@ -1,0 +1,210 @@
+.wpb-layout-element-button[data-element=Bit_Pricing_Tables] .vc_element-icon {
+	background: url("../images/tables.png") no-repeat center center / cover;
+}
+.wpb-layout-element-button[data-element=Bit_Pricing_Table] .vc_element-icon {
+	background: url("../images/table.png") no-repeat center center / cover;
+}
+
+
+#container.bit14-admin-addons{
+	padding: 10px;
+	text-align: center;
+}
+#container.bit14-admin-addons .heading{
+	padding: 0 0 10px;
+}
+#container.bit14-admin-addons .heading h3{
+	margin: 1px 0;
+}
+#container.bit14-admin-addons .heading span{
+	font-weight: 700;
+	color: #1688b8;
+}
+#container.bit14-admin-addons .addons-list.only-builder{
+    padding-top: 30px;
+}
+/* =====CPT====== */
+#container.bit14-admin-addons .addons-list.cpt-list{
+	border: 2px solid #ddd;
+	padding-bottom: 30px;
+	margin:0 5px;
+}
+#container.bit14-admin-addons .addons-list.cpt-list .sub-title{
+	text-align: left;
+	padding: 30px 30px;
+	background: #fff;
+	margin: 0 0 30px;
+}
+#container.bit14-admin-addons .addons-list.cpt-list .addon-container{
+	width: 22%;
+	min-width: 250px;
+	display: inline-block;
+	margin: 10px auto;
+	padding: 10px;
+}
+#container.bit14-admin-addons .addons-list.cpt-list .addon-container .addon-container-bg{
+	background: #fff;
+	width: 250px;
+	margin: auto;
+	box-shadow: 0px 2px 70px -8px rgba(98, 101, 103,.45);
+	transition: 1s ease-in-out;
+}
+#container.bit14-admin-addons .addons-list.cpt-list .addon-container .addon-container-bg:hover{
+	box-shadow: 0px 2px 70px -8px rgba(98, 101, 103,.85);
+}
+#container.bit14-admin-addons .addons-list.cpt-list .addon-container .addon-container-bg .addon-img{
+	width: 250px;
+	overflow: hidden;
+}
+#container.bit14-admin-addons .addons-list.cpt-list .addon-container .addon-container-bg .addon-img img{
+	height: auto;
+	width: 100%;
+}
+/* =====CPT====== */
+
+#container.bit14-admin-addons .addons-list.only-builder{
+	padding-bottom: 30px;
+	text-align: left;
+	display: block;
+	width: 100%;
+	float: left;
+}
+#container.bit14-admin-addons .addons-list.only-builder .sub-title{
+	text-align: left;
+	padding: 30px 30px;
+	background: #fff;
+	margin: 0 0 30px;
+}
+#container.bit14-admin-addons .addons-list.only-builder .addon-container{
+	width: 24%;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	background-color:white;
+	margin: 7px 5px;
+	padding: 10px;
+}
+#container.bit14-admin-addons .addons-list.only-builder .addon-container .addon-container-bg{
+	background: #fff;
+	width: 100%;
+	margin: auto;
+	transition: 1s ease-in-out;
+}
+#container.bit14-admin-addons .addons-list.only-builder .addon-container .addon-container-bg .addon-img{
+	background-color:white;
+	border-radius:100%;
+	width:70px;
+	height: 70px;
+	line-height: 70px;
+	margin:0 auto;
+	padding:10px;
+	margin-top: 10px;
+	text-align: center;
+	transition: all.3s ease;
+}
+#container.bit14-admin-addons .addons-list.only-builder .addon-container .addon-container-bg .addon-img img{
+	width:auto;
+	height:auto;
+	margin-top: 13px;
+}
+#container.bit14-admin-addons .addons-list .addon-container .addon-container-bg .addon-content{
+	padding: 10px 15px;
+}
+#container.bit14-admin-addons .button-container{
+	display: block;
+	margin: 30px auto;
+	width: 100%;
+}
+#container.bit14-admin-addons .button-container a{
+	background: #f05227;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s ease-in-out;
+	padding: 12px 24px;
+	font-size: 18px;
+}
+
+/* ===== Money back banner =====*/
+.moneyback-banner{
+	background-image: url('../images/background-moneyback.jpg');
+	background-size: cover;
+	width:calc(96% + 35px);
+	margin: 0 7px 10px;
+}
+.moneyback-banner.cpt{
+	width: auto;
+}
+.moneyback-container {
+	width:90%;
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+.moneyback-content{
+	width:60%;
+	padding:50px 0;
+	text-align: left;
+}
+.moneyback-img{
+	width: 40%;
+}
+.moneyback-img img{
+	width: 100%;
+}
+.moneyback-content h3 {
+	font-size:3.0em;
+	color: #ffffff;
+	margin: 0;
+    font-family: 'Poppins',sans-serif !important;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.moneyback-content p {
+	font-size:14px;
+	color:white;
+	margin-bottom: 40px;
+}
+.moneyback-content a {
+	background-color: rgb(255, 255, 255);
+    color: rgb(76, 169, 249);
+    border-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px 55px;
+    font-size: 17px;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 5px !important;
+}
+.moneyback-content a:hover {
+	background-color: rgb(76, 169, 249);
+    color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 1200px){
+	.moneyback-container {
+		align-items: center;
+		display: block;
+	}	
+	.moneyback-content{
+		width:100%;
+		text-align: center;
+	}
+	.moneyback-img{
+		width: 70%;
+		margin: 0 15%;
+	}
+
+	#container.bit14-admin-addons .addons-list.only-builder .addon-container{
+		width: 32%;
+		margin:7px 0.5%;
+	}
+
+}
+@media only screen and (max-width: 768px){
+	#container.bit14-admin-addons .addons-list.only-builder .addon-container{
+		width: 48%;
+		margin:7px 1%;
+	}	
+}
+
+/* ===== Money back banner =====*/

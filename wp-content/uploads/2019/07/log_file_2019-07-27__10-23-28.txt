@@ -1,0 +1,73 @@
+
+---Downloaded files---
+The import files for: Malefic 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/beyond_tech
+Data file = F:\xampp\htdocs\beyond_tech/wp-content/uploads/2019/07/demo-content-import-file_2019-07-27__10-23-28.xml
+Widget file = F:\xampp\htdocs\beyond_tech/wp-content/uploads/2019/07/demo-widgets-import-file_2019-07-27__10-23-28.json
+Customizer file = F:\xampp\htdocs\beyond_tech/wp-content/uploads/2019/07/demo-customizer-import-file_2019-07-27__10-23-28.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - Search - Imported
+TommusRhodus: Social Icons - About Us - Imported
+TommusRhodus: Popular Posts - Popular Posts - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+TommusRhodus: Instagram Widget - Instagram - Imported
+
+Footer Column 1 : 
+
+Text - No Title - Imported
+
+Footer Column 2 : 
+
+TommusRhodus: Popular Posts - Popular Posts - Imported
+
+Footer Column 3 : 
+
+Text - Get In Touch - Imported
+
+Footer Column 4 : 
+
+Categories - Top Categories - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

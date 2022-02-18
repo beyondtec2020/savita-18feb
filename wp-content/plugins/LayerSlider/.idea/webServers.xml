@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7e0818f9-4a67-4ca9-80f4-4180c0ba49e7" name="localhost" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\WebServer\htdocs\The7_All_Content\wp-content\plugins\LayerSlider" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

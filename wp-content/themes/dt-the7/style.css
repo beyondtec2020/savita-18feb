@@ -1,0 +1,368 @@
+/*
+Theme Name: The7
+Theme URI: http://the7.io/
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: Any design, any layout. No coding required. The7 is the most customisable WordPress theme on the market up to date. Add the power of Visual Composer, The7 Post Types, Ultimate Addons, Slider Revolution, and WooCommerce to the mix, and you’ll get the ultimate web-site building toolkit! Theme is translation ready, compatible with WPML, SEO and mobile friendly (certified by Google).
+Version: 7.7.7
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+License URI: License.txt
+Tags: multipurpose, responsive, retina ready, SEO ready, mobile friendly, iOS, material design, clean, minimal, business, corporate, portfolio, creative, photography, one page site, micro site
+Text Domain: the7mk2
+*/
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor,
+.main-page {}
+
+
+
+
+.cus_button 
+{
+	margin-left: 22px;
+	width: 60%;
+text-align: left;
+}
+.cus_button i
+{
+	width: 41px;
+height: 29px;
+border-radius: 50%;
+color: #2844b2 !important;
+font-size: 20px !important;
+padding-top: 12px;
+border: 2px solid;
+text-align: center;
+}
+.custom-btn-color .dt-btn > * {
+
+    color: none !important;
+
+}
+
+.tech-card {
+    padding: 20px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    height: 253px;
+    border-radius: 8px;
+    border: solid 1px #dfe3ec;
+    background-color: #ffffff;
+    width: 294px;
+    margin-bottom: 10px;
+    -webkit-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+ul .vc_tta-title-text
+{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+ ul  .vc_active
+{
+	-webkit-box-shadow: 0px 7px 21px 0 rgba(0, 0, 0, 0.08) !important;
+	box-shadow: 0px 7px 21px 0 rgba(0, 0, 0, 0.08) !important;
+	border: solid 1px #1050f3 !important;
+	background-color: #ffffff !important;
+	color: #1050f3 !important;
+	border-radius: 6px !important;
+	font-size: 20px;
+	font-weight: 600;
+}
+ul .vc_active a
+{ 
+	color:#1050f3 !important;
+}
+
+input::placeholder {
+  color: #fff;
+}
+textarea::placeholder {
+  color: #fff;
+}
+::-webkit-input-placeholder { 
+  color: #fff;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+input::-webkit-input-placeholder {
+   color: #fff;
+}
+textarea::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+
+.text_class 
+{
+	width:46% !important;
+	 
+	margin: 0 15px !important;
+		margin-bottom: 0px !important;
+	background-color: transparent !important;
+	border: solid 1px #ffffff !important;
+	margin-bottom: 20px !important;
+	padding: 15px !important;
+	border-radius: 5px !important;
+	height: 70px !important;
+	font-size: 16px !important;
+	letter-spacing: 0.8px !important;
+	color: #eeeff7 !important;
+	}
+.textarea_class 
+{
+	width:95% !important;
+	height: 200px !important;
+	margin: 0 15px !important;
+		margin-bottom: 0px !important;
+	background-color: transparent !important;
+	border: solid 1px #ffffff !important;
+	margin-bottom: 20px !important;
+	padding: 15px !important;
+	border-radius: 5px !important;
+	font-size: 16px !important;
+	letter-spacing: 0.8px !important;
+	color: #eeeff7 !important;
+}
+.button_class {
+    width: 240px !important;
+    height: 54px !important;
+    border-radius: 4px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    letter-spacing: 1.6px !important;
+    color: #1254f7 !important;
+    -webkit-box-shadow: 0px 13px 57.1px 10.9px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0px 13px 57.1px 10.9px rgba(0, 0, 0, 0.1) !important;
+    background-color: #ffffff !important;
+    -webkit-transition: 0.3s all ease-in-out !important;
+    -o-transition: 0.3s all ease-in-out !important;
+    transition: 0.3s all ease-in-out !important;
+    margin: 40px 0px 0px !important;
+    border: none !important;
+    cursor: pointer !important;
+	background: -webkit-linear-gradient(135deg, #fff 30%, #fff 100%) !important;
+background: linear-gradient(135deg, #fff 30%, #fff 100%) !important;
+    background-color: rgba(0, 0, 0, 0);
+}
+.wpcf7-form
+{
+	text-align:center !important;
+}
+.textwidget p
+{
+	vertical-align: middle !important;
+}
+
+.wf-float-left
+{
+	color:#000 !important;
+	text-align:center !important;
+}
+/*.wf-container-footer
+{
+	border-bottom: 1px #44444487 solid;
+}*/
+/*#wellness_fitness
+{
+	 
+}*/
+#education, #finance, #Healthcare, #OilandGas, #Logistics, #Retail, #Transportation
+{
+	display : none;
+}
+.wellness_fitness, .education, .finance, .Healthcare, .OilandGas, .Logistics, .Retail, .Transportation
+	{
+		width: 80% !important;
+	     
+	}
+
+
+@media only screen and (max-width: 720px) and (min-width: 300px)  
+{
+
+	
+	
+	#wellness_fitness, #education, #finance, #Healthcare, #OilandGas, #Logistics, #Retail, #Transportation
+	{
+		width: 92% !important;
+	    padding-left: 26px !important;
+	    padding-bottom: 25px;
+	}
+	.wellness_fitness, .education, .finance, .Healthcare, .OilandGas, .Logistics, .Retail, .Transportation
+	{
+		width: 100% !important;
+	     
+	}
+	 .vc_custom_1564409026157
+	 {
+		width: 86% !important;
+		margin-left: 25px;
+		margin-bottom: 20px;
+	}	
+	 /*.vc_custom_1564409026157:hover
+	 {
+		width: 86% !important;
+		cursor: pointer;
+	}	*/
+	.text_class
+	{
+		width: 94% !important;
+	}
+	.vc_custom_1564467585045, .vc_custom_1564467599001, .vc_custom_1564467679818  ,.vc_custom_1564467689044 , .vc_custom_1564468008238, .vc_custom_1564467996174,  .vc_custom_1564467724270,  .vc_custom_1564467717723    {
+	    margin-left: 22px !important;
+	}
+	.cus_button 
+	{
+			width: 87% !important;
+			cursor: pointer;
+
+	}
+}
+
+/*.slotholder
+	{
+		height: 60% !important;
+	}*/
+
+
+#services
+{
+	margin-top: -52px !important;
+}
+.wf-float-left
+{
+	width: 100% !important;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 22px;
+}
+@media  (max-width: 1366px) 
+{
+	/*.slotholder
+	{
+		height: 80% !important;
+	}*/
+	/*#wellness_fitness .vc_col_sm-4
+	{
+		width: 46% !important;
+	}*/
+}
+@media only screen and (max-width: 1920px) and (min-width: 1500px)  
+/*@media  (max-width: 1920px) */
+{
+	#blog {
+    padding-right: 150px !important;
+    padding-left: 150px !important;
+   
+}
+	
+	
+	#slide-4-layer-1
+	{
+		margin-left: 215px;
+	}
+	#slide-4-layer-2
+	{
+		margin-left: 215px;
+	}
+	 #slide-4-layer-7
+	 {
+
+		margin-left: 215px;
+	 }
+	 #slide-4-layer-6
+	 {
+		margin-left: 92px;
+
+	 }
+}
+
+
+
+
+.content td, .content th {
+ 
+    border-color: #fff !important;
+    padding: 0px 0px 0px 0px !important;
+	border:1px solid transparent;
+
+}
+.content ol, .content ul {
+
+    margin: 0 0 0px 20px !important;
+
+}
+.content table {
+
+    border: 0px solid transparent !important;
+	border:1px solid transparent;
+ 
+
+}
+
+.textwidget td, .content th {
+ 
+    border-color: #fff !important;
+    padding: 0px 0px 0px 0px !important;
+    color: #000;
+	border:1px solid transparent;
+
+}
+.textwidget table {
+
+    border: 0px solid transparent !important;
+	border:1px solid transparent;
+ 
+
+}
+.single-related-posts
+{
+	display: none;
+}
+.post-navigation
+{
+	display: none;
+}
+.author-info, .entry-author
+{
+	display: none;
+}
+
+
+.dt-btn:not(.btn-light):not(.light-bg-btn):not(.outline-btn):not(.outline-bg-btn):not(.btn-custom-style) {
+	
+	background: transparent;
+	
+}
+.vc_tta-tab a i{
+	font-size: 20px !important;
+}
+

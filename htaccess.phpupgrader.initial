@@ -1,0 +1,62 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN WP-HUMMINGBIRD-CACHING
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault A0
+
+<FilesMatch "\.(txt|xml|js)$">
+ExpiresDefault A691200
+</FilesMatch>
+
+<FilesMatch "\.(css)$">
+ExpiresDefault A691200
+</FilesMatch>
+
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac|eot|ttf|otf|woff|svg)$">
+ExpiresDefault A691200
+</FilesMatch>
+
+<FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
+ExpiresDefault A691200
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(txt|xml|js)$">
+   Header set Cache-Control "max-age=691200"
+  </FilesMatch>
+
+  <FilesMatch "\.(css)$">
+   Header set Cache-Control "max-age=691200"
+  </FilesMatch>
+
+  <FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac|eot|ttf|otf|woff|svg)$">
+   Header set Cache-Control "max-age=691200"
+  </FilesMatch>
+
+  <FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
+   Header set Cache-Control "max-age=691200"
+  </FilesMatch>
+</IfModule>
+# END WP-HUMMINGBIRD-CACHING
+# Use PHP70 as default
+##AddHandler application/##x-httpd-php70 .php
+<IfModule mod_suphp.c>
+    ##suPHP_ConfigPath /opt/php70/lib
+</IfModule>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>

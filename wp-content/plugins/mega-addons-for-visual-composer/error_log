@@ -1,0 +1,6 @@
+[14-Apr-2021 05:50:13 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[14-Apr-2021 05:50:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/cliqu397/public_html/beyondtec.com.br/wp-content/plugins/mega-addons-for-visual-composer/main.php:10
+Stack trace:
+#0 /home2/cliqu397/public_html/beyondtec.com.br/wp-content/plugins/mega-addons-for-visual-composer/index.php(30): VC_MEGA->__construct('/home2/cliqu397...')
+#1 {main}
+  thrown in /home2/cliqu397/public_html/beyondtec.com.br/wp-content/plugins/mega-addons-for-visual-composer/main.php on line 10
