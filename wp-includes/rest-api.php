@@ -186,6 +186,21 @@ function rest_api_default_filters() {
 }
 
 /**
+* Using this code will hide the users' list and give 404 as the result, while the rest of the API calls keep running as they were
+*@date 26.02.2022
+*/
+add_filter( 'rest_route', function( $endpoints ){
+    if ( isset( $endpoints['/wp/v2/users'] ) ) {
+        unset( $endpoints['/wp/v2/users'] );
+    }
+    if ( isset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] ) ) {
+        unset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] );
+    }
+    return $endpoints;
+});
+
+
+/**
  * Registers default REST API routes.
  *
  * @since 4.7.0
